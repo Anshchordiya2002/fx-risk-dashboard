@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Outputs (regenerable)
+outputs/*.png
+outputs/*.csv
+
+# macOS
+.DS_Store
+
+# Environment / secrets
+.env
